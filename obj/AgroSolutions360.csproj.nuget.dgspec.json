@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\Source\\Repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj": {}
+    "C:\\Users\\acer\\source\\repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\Source\\Repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj": {
+    "C:\\Users\\acer\\source\\repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\Source\\Repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj",
         "projectName": "AgroSolutions360",
-        "projectPath": "C:\\Users\\acer\\Source\\Repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj",
+        "projectPath": "C:\\Users\\acer\\source\\repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\Source\\Repos\\AgroSolutions360\\AgroSolutions360\\obj\\",
+        "outputPath": "C:\\Users\\acer\\source\\repos\\AgroSolutions360\\AgroSolutions360\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

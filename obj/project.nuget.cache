@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SNyJqHU04ghKiVSy9mEMbyOWQynxCC0jUjSFBSUFeu2jrO8F9JDP2HJtUUzV5YKhtq1nzraTQqXJlLStJq6Olw==",
+  "dgSpecHash": "2mW6iEMjOutxs4VQcI2ZGzJ1GMJ3h45dTPlx4IUrr4/t3s/Jt7+GL3Db6z5RZHwwXkwTr6YWAgE+DDxN8RILHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acer\\Source\\Repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj",
+  "projectFilePath": "C:\\Users\\acer\\source\\repos\\AgroSolutions360\\AgroSolutions360\\AgroSolutions360.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\acer\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
