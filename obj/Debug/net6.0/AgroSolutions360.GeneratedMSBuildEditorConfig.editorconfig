@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\acer\source\repos\AgroSolutions360\AgroSolutions360
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/acer/source/repos/AgroSolutions360/AgroSolutions360/Views/Home/DisplayVaches.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEaXNwbGF5VmFjaGVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/acer/source/repos/AgroSolutions360/AgroSolutions360/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
