@@ -8,7 +8,6 @@ namespace AgroSolutions360.Context
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<Vache> Vaches { get; set; }
-        public DbSet<AgroSolutions360.Models.Dtos.Vache.VacheDto>? VacheDto { get; set; }
 
  
     }

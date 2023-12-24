@@ -1,0 +1,35 @@
+# .NET build
+*.exe
+*.pdb
+*.dll
+*.user
+*.build
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+*.sln.ide
+
+# Resharper files
+_resharper*
+
+# Packages
+packages/
+
+# Logs
+*.log
+*.dll
+*.dll
+obj/Debug/net6.0/refint/AgroSolutions360.dll
+obj/Debug/net6.0/ref/AgroSolutions360.dll
+obj/Debug/net6.0/AgroSolutions360.pdb
+obj/Debug/net6.0/AgroSolutions360.dll
+obj/Debug/net6.0/AgroSolutions360.csproj.FileListAbsolute.txt
+bin/Debug/net6.0/AgroSolutions360.pdb
+bin/Debug/net6.0/AgroSolutions360.dll
+*.dll
+*.dll

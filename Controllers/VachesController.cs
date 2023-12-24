@@ -2,7 +2,6 @@
 using AgroSolutions360.Models.Dtos.Vache;
 using AgroSolutions360.Results;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AgroSolutions360.Controllers
 {
@@ -17,11 +16,7 @@ namespace AgroSolutions360.Controllers
             _vachesService = vachesService;
 
         }
-        public ActionResult listeVaches()
-        {
-            return View();
-        }
-
+ 
         [HttpGet("api/vache/recherche")]
         public OperationResult<List<VacheDto>> RechercheVache()
         {
