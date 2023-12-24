@@ -23,7 +23,8 @@ namespace AgroSolutions360.Models.Mapping
                 Race_mere = vache.Race_mere,
                 Race_pere = vache.Race_pere,
                 Nom_animal = vache.Nom_animal,
-                Sexe_animal = vache.Sexe_animal
+                Sexe_animal = vache.Sexe_animal,
+                IdFerme = vache.IdFerme
             }).ToList();
         }
 
@@ -46,7 +47,8 @@ namespace AgroSolutions360.Models.Mapping
                 Race_mere = vache.Race_mere,
                 Race_pere = vache.Race_pere,
                 Nom_animal = vache.Nom_animal,
-                Sexe_animal = vache.Sexe_animal
+                Sexe_animal = vache.Sexe_animal,
+                IdFerme = vache.IdFerme,
             };
         }
 
@@ -68,7 +70,9 @@ namespace AgroSolutions360.Models.Mapping
                 Race_mere = NewVache.Race_mere,
                 Race_pere = NewVache.Race_pere,
                 Nom_animal = NewVache.Nom_animal,
-                Sexe_animal = NewVache.Sexe_animal
+                Sexe_animal = NewVache.Sexe_animal,
+                IdFerme = NewVache.IdFerme,
+
             };
         }
 
@@ -91,7 +95,9 @@ namespace AgroSolutions360.Models.Mapping
                 Race_mere = UpdateVache.Race_mere,
                 Race_pere = UpdateVache.Race_pere,
                 Nom_animal = UpdateVache.Nom_animal,
-                Sexe_animal = UpdateVache.Sexe_animal
+                Sexe_animal = UpdateVache.Sexe_animal,
+                IdFerme = UpdateVache.IdFerme,
+
             };
         }
 

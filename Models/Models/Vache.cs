@@ -12,7 +12,7 @@
         public string Race_pere { get; set; }
         public string Nom_animal { get; set; }
         public string Sexe_animal { get; set; }
-
+        public int IdFerme { get; set; }    
 
 
     }

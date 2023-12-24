@@ -18,14 +18,14 @@ namespace AgroSolutions360.Controllers
         }
  
         [HttpGet("api/vache/recherche")]
-        public OperationResult<List<VacheDto>> RechercheVache()
+        public OperationResult<List<VacheDto>> RechercheVache(int IdFerme)
         {
-            return _vachesService.RechercheVaches();
+            return _vachesService.RechercheVaches(IdFerme);
         }
         [HttpGet("api/vache/GetById")]
-        public OperationResult<VacheDto> GetVacheById(int IdVache)
+        public OperationResult<VacheDto> GetVacheById(int IdVache,int IdFerme)
         {
-            return _vachesService.GetVacheById(IdVache);
+            return _vachesService.GetVacheById(IdVache, IdFerme);
         }
         [HttpPost("api/vache/Add")]
         public OperationResult<NewVacheDto> AjoutVache([FromBody] NewVacheDto newVacheDto)
@@ -39,9 +39,9 @@ namespace AgroSolutions360.Controllers
             return _vachesService.ModificationVache(updateVacheDto);
         }
         [HttpDelete("api/vache/Delete")]
-        public OperationResult<int> SupprimerVache(int SupprimerVacheId)
+        public OperationResult<int> SupprimerVache(int SupprimerVacheId, int IdFerme)
         {
-            return _vachesService.SupprimerVache(SupprimerVacheId);
+            return _vachesService.SupprimerVache(SupprimerVacheId,IdFerme);
         }
     }
 }

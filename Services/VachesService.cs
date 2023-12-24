@@ -34,7 +34,7 @@ namespace AgroSolutions360.Services
 
          }
 
-        public OperationResult<VacheDto> GetVacheById(int IdVache)
+        public OperationResult<VacheDto> GetVacheById(int IdVache,int IdFerme)
         { 
             if(IdVache <1)
             {
@@ -45,7 +45,7 @@ namespace AgroSolutions360.Services
                 };
             }
 
-            var vache = _applicationDbContext.Vaches.Where(i =>i.id == IdVache).FirstOrDefault();
+            var vache = _applicationDbContext.Vaches.Where(i =>i.id == IdVache && i.IdFerme == IdFerme).FirstOrDefault();
             if (vache == null)
             {
                 return new OperationResult<VacheDto>
@@ -88,11 +88,11 @@ namespace AgroSolutions360.Services
 
         }
 
-        public OperationResult<List<VacheDto>> RechercheVaches()
+        public OperationResult<List<VacheDto>> RechercheVaches( int IdFerme)
         {
             try
             {
-                 List<Vache> vacheList = _applicationDbContext.Vaches.ToList();
+                 List<Vache> vacheList = _applicationDbContext.Vaches.Where( i=> i.IdFerme == IdFerme).ToList();
 
                  List<VacheDto> vacheDTOList = VacheMapper.VachesListeMapper(vacheList);
 
@@ -106,7 +106,7 @@ namespace AgroSolutions360.Services
             }
         }
 
-        public OperationResult<int> SupprimerVache(int SupprimerVacheId)
+        public OperationResult<int> SupprimerVache(int SupprimerVacheId, int IdFerme)
         {
             if (SupprimerVacheId  < 1)
             {
@@ -116,7 +116,7 @@ namespace AgroSolutions360.Services
                     ErrorMessage = "Verifier l'ID en parametre"
                 };
             }
-          var VacheAsupprimer  =_applicationDbContext.Vaches.Where(i=>i.id == SupprimerVacheId).FirstOrDefault();
+          var VacheAsupprimer  =_applicationDbContext.Vaches.Where(i=>i.id == SupprimerVacheId && i.IdFerme == IdFerme).FirstOrDefault();
             if(VacheAsupprimer == null) { 
             return new OperationResult<int>
             {

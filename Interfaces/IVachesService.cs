@@ -6,10 +6,10 @@ namespace AgroSolutions360.Interfaces
 {
     public interface IVachesService
     {
-       public OperationResult<List<VacheDto>> RechercheVaches();
-       public OperationResult<VacheDto> GetVacheById(int IdVache);
+       public OperationResult<List<VacheDto>> RechercheVaches(int IdFerme);
+       public OperationResult<VacheDto> GetVacheById(int IdVache,int IdFerme);
         public OperationResult<NewVacheDto> AjoutVache(NewVacheDto NewVache);
         public OperationResult<UpdateVacheDto> ModificationVache(UpdateVacheDto UpdateVache);
-        public OperationResult<int> SupprimerVache(int SupprimerVacheId);
+        public OperationResult<int> SupprimerVache(int SupprimerVacheId, int IdFerme);
     }
 }
